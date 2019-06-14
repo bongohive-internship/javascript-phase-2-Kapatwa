@@ -1,2 +1,6 @@
-// add a printDate function in here
-// eg: console.log("Hello World")
+function printDate(){
+  var ctime;
+  ctime = new Date();
+  return ctime;
+}
+console.log(printDate());
